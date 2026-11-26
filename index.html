@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Isabelly Oliveira</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 25px;
+            margin-bottom: 35px;
+        }
+        h1 { color: #58a6ff; margin-bottom: 5px; }
+        h2 { color: #f0f6fc; border-left: 4px solid #58a6ff; padding-left: 12px; margin-top: 35px; }
+        .projeto {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 22px;
+            margin-bottom: 20px;
+        }
+        .projeto.destaque {
+            border-color: #388bfd;
+        }
+        .projeto h3 { margin-top: 0; color: #58a6ff; }
+        .badge-tcc {
+            background-color: #1f6feb;
+            color: #ffffff;
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #21262d;
+            color: #8b949e;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-right: 6px;
+            margin-top: 8px;
+        }
+        .links-projeto { margin-top: 15px; }
+        .links-projeto a { margin-right: 18px; }
+        a { color: #58a6ff; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Isabelly Oliveira</h1>
+        <p>Técnica em Informática • Desenvolvimento em C, Python, Web (HTML/CSS/JS) e Banco de Dados</p>
+        <p>
+            <a href="https://github.com/isabelly-oliv" target="_blank">GitHub</a> • 
+            <a href="mailto:seuemail@exemplo.com">E-mail</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>
+            Formanda em Técnico em Informática (Dezembro/2026)[cite: 1], com experiência prática na criação de 
+            dashboards[cite: 4], integração de sistemas com bancos de dados relacional[cite: 1], desenvolvimento web[cite: 1] e automação 
+            com microcontroladores (ESP32)[cite: 1, 4]. Busco minha primeira oportunidade na área de tecnologia para 
+            contribuir com soluções práticas e continuar evoluindo.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projetos</h2>
+
+        <div class="projeto destaque">
+            <h3>CaféAria — Dashboard e Estufa Inteligente <span class="badge-tcc">TCC</span></h3>
+            <p>
+                Sistema completo de monitoramento e controle para o processo pós-colheita de secagem do café[cite: 4]. 
+                Integra sensores de temperatura/umidade e atuadores (motor de passo, cooler e lâmpada) via ESP32[cite: 4] 
+                a um servidor Flask, banco de dados MySQL e interface desktop com gráficos em tempo real e exportação CSV[cite: 4].
+            </p>
+            <div>
+                <span class="tag">Python</span>
+                <span class="tag">CustomTkinter</span>
+                <span class="tag">Flask API</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">ESP32 / IoT</span>
+            </div>
+            <div class="links-projeto">
+                <a href="https://github.com/isabelly-oliv/cafearia-dashboard" target="_blank">Ver código no GitHub →</a>[cite: 8]
+            </div>
+        </div>
+
+        <div class="projeto">
+            <h3>Sistema Desktop com Banco de Dados (Projeto AV3)</h3>
+            <p>
+                Aplicação desenvolvida em C# (Windows Forms) para gerenciamento e persistência de registros[cite: 1], aplicando 
+                conceitos de orientação a objetos, múltiplas telas e conexão com banco de dados[cite: 1].
+            </p>
+            <div>
+                <span class="tag">C#</span>
+                <span class="tag">Windows Forms</span>
+                <span class="tag">Banco de Dados</span>
+            </div>
+            <div class="links-projeto">
+                <a href="https://github.com/isabelly-oliv/-projetos-ti-2" target="_blank">Ver código no GitHub →</a>[cite: 7, 8]
+            </div>
+        </div>
+
+        <div class="projeto">
+            <h3>Portal Temático: Mudanças Climáticas e o Café</h3>
+            <p>
+                Website informativo multi-páginas abordando os impactos das alterações climáticas na cafeicultura 
+                brasileira, com galeria interativa, vídeos incorporados, página de contato e mini-jogo integrado.
+            </p>
+            <div>
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+            </div>
+            <div class="links-projeto">
+                <a href="https://isabelly-oliv.github.io/meus-projetos-ti/" target="_blank">🌐 Acessar site online →</a>[cite: 1]
+                <a href="https://github.com/isabelly-oliv/meus-projetos-ti" target="_blank">Ver código →</a>[cite: 1, 8]
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
